@@ -204,7 +204,7 @@ class _MyHomePageState extends State<MyHomePage> {
       if (skip == name) {
         continue;
       }
-      await _copyFolder(remote, rime, [name]);
+      await _copyFolder(rime, remote, [name]);
     }
   }
 
